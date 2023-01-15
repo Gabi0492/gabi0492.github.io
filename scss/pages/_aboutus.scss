@@ -1,0 +1,43 @@
+.main1{
+    background-color: #e2e7e7;
+        display: grid;
+        text-align: center;
+        grid-template-columns: 1/2;
+        grid-template-rows: 1/1 ;   
+    
+    }
+    
+    .main1 h2{
+        color: #2874A6;
+        padding: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+    }
+    
+    .d-flex p {
+        color: black;
+       font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .icon-power{
+        margin-top: 15px;
+        color: #2874A6;
+        font-size: 30px;
+    }
+    
+    .icon-users{
+        margin-top: 15px;
+        color: #2874A6;
+        font-size: 30px;
+    }
+    
+    
+    .main2{
+    
+        display: flex;
+        align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    
+    }

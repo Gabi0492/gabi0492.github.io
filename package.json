@@ -1,0 +1,19 @@
+{
+  "name": "brandiproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabi0492/proyecto-git.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabi0492/proyecto-git/issues"
+  },
+  "homepage": "https://github.com/Gabi0492/proyecto-git#readme"
+}
