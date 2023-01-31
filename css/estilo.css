@@ -14,34 +14,22 @@ ul li {
 }
 /* Menu */
 header {
-    background-color:rgba(35, 140, 140, 0.9);
+    background-color:rgba(35, 140, 140, 0.5);
     padding: 15px;
-    align-items: center;
+  
 
 }
-header nav ul{
-    display: flex;
-    gap: 20px;
+.d-inline-block{
+    margin-right: 60px;
 
 }
 
-
-@media (min-width: 768px){
-
-    header {
-        display: flex;
-        justify-content: space-between;
-
-    }
-    nav{
-        display: block;
-    }
-
-    header ul{
-        display: flex;
-        gap: 20px;
-    }
+.fs-1{
+    color: gray;
 }
+
+
+
 
 /* portada */
 .portada{
@@ -233,10 +221,9 @@ text-align: center;
 
 .main5{
     background-color:#e2e7e7;
-
-
-
 }
+
+
 
 
 /* Contact us */

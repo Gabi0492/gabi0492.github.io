@@ -1,4 +1,4 @@
-header {
+@mixin header {
     @include navbar;   
     background-color:rgba(35, 140, 140, 0.9);
     padding: 15px;
