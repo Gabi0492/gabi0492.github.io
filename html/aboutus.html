@@ -12,27 +12,27 @@
     <meta name="description" content="Brändi we are the best choise for your company, come and meet us">
     
     <header >
+      <!-- La Nav Bar contiene https://getbootstrap.com/docs/5.3/components/dropdowns/  -->
 
       <nav class="navbar navbar-expand-lg bg-body-tertiary ">
           <div class="container-fluid">
               <img src="../pictures/logo.png" alt="Logo" width="80" height="84" class="d-inline-block align-text-top">
               <p class="fs-1 fw-bold position-absolute top-50 start-50 translate-middle ">Brändi</p>              <ul class="navbar-nav">
-              <li class="nav-item">
-                  <a class="nav-link fw-bold text-dark btn btn-sm btn-outline-secondary rounded-pill" href="../index.html">Start</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link fw-bold text-dark btn btn-sm btn-outline-secondary rounded-pill" href="../html/aboutus.html">What is brändi</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link fw-bold text-dark btn btn-sm btn-outline-secondary rounded-pill" href="../html/ourculture.html">Our culture</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link fw-bold text-dark btn btn-sm btn-outline-secondary rounded-pill" href="../html/projects.html">Projects</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link fw-bold text-dark btn btn-sm btn-outline-secondary rounded-pill" href="../html/contactus.html">Contact us</a>
-                </li>
-              </ul>
+                <div class="dropdown">
+                  <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    MENU
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>  <a class="dropdown-item" href="../index.html">Start</a> </li>
+                    <li> <a class="dropdown-item" href="../html/aboutus.html">What is brändi</a></li>
+                
+                      <li><a class="dropdown-item" href="../html/ourculture.html">Our culture</a></li>
+                    
+                     <li> <a class="dropdown-item" href="../html/projects.html">Projects</a></li>
+                  
+                     <li> <a class="dropdown-item" href="../html/contactus.html">Contact us</a> </li>
+                </div>
+  
   </header>
 
 
